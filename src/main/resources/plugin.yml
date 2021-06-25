@@ -1,0 +1,8 @@
+name: PlayerRep
+version: ${project.version}
+main: me.deej.playerrep.PlayerRep
+api-version: 1.17
+authors: [ MrDeej ]
+website: https://github.com/Mr-Deej
+softdepend:
+  - PlaceHolderAPI

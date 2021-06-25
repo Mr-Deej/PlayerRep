@@ -1,0 +1,55 @@
+# Option 2 Placeholder {REP_AMOUNT}
+# Papi Placeholder for rep! {placeholderapi_rep_amount}
+#
+# Command Permissions
+AdminPermission: rep.admin
+ShowPermission: rep.show
+
+#Messages
+#placeholders: %player%, %repamount%, %reprec%, %reptaken%, %repadded%
+rep-dshow-message:
+  - '&f '
+  - '&d&l[!] &fYou have &d&l%repamount%&f Reputation Points!'
+  - '&f '
+
+rep-show-message:
+  - '&f '
+  - '&d&l[!] &f&n%player%&f has &d&l%repamount%&f Reputation Points!'
+  - '&f '
+
+rep-add-message:
+  - '&f '
+  - '&d&l[!] &fYou gave &f&n%player%&d&l %repadded%&f Reputation Points!'
+  - '&f '
+
+rep-recieved-message:
+  - '&f '
+  - '&d&l[!] &fYou recieved &d&l%reprec%&f Reputation Points!'
+  - '&f '
+
+rep-remove-message:
+  - '&f '
+  - '&d&l[!] &fYou removed &d&l%reptaken%&f Reputation Points&f from &n%player%&f!'
+  - '&f '
+
+rep-lost-message:
+  - '&f '
+  - '&d&l[!] &fYou lost &d&l%reptaken%&f Reputation Points!'
+  - '&f '
+
+rep-reload-message: '&d&l[!] &f&lCONFIGURATION RELOADED!'
+
+#What placement you get points from
+RepPlacements: 10
+#1st gets 16 points 2nd gets 14 etc
+RepPlaces:
+  '1': 16
+  '2': 14
+  '3': 12
+  '4': 10
+  '5': 8
+  '6': 6
+  '7': 4
+  '8': 3
+  '9': 2
+  '10': 1
