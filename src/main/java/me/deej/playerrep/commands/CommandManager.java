@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CommandManager implements CommandExecutor {
-    private static Map<String, RepCommand> commandList = new HashMap<>();
+    private static final Map<String, RepCommand> commandList = new HashMap<>();
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
