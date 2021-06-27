@@ -1,8 +1,14 @@
 name: PlayerRep
 version: ${project.version}
 main: me.deej.playerrep.PlayerRep
-api-version: 1.17
+api-version: 1.16
 authors: [ MrDeej ]
 website: https://github.com/Mr-Deej
 softdepend:
   - PlaceHolderAPI
+commands:
+  rep:
+    description: rep but shorter
+  reputation:
+    description: rep but longer
+
